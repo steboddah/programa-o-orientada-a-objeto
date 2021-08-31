@@ -1,0 +1,6 @@
+
+
+using System;using System.Collections.Generic;using System.Text;
+
+ namespace ClassLibrary1{ 
+class pessoa{ public double y.nome; public double x.idade; public double y.nome;público Double y.idade; }}
