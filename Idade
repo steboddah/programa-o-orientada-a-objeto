@@ -1,0 +1,32 @@
+using System;
+using System.Globalization;
+
+namespace ClassLibrary1
+{
+    class Class1
+    {
+        static void Main(string[] args)
+        {
+pessoa x
+pessoa y
+
+x=new pessoas ();
+y=new pessoas();
+
+Console.WriteLine("QUAL SEU NOME x: " );
+Console.WriteLine("QUAL SUA IDADE x: " );
+
+x.nome=  double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+x.idade=  double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+
+Console.WriteLine("QUAL SEU NOME y: " );
+Console.WriteLine("QUAL SUA IDADE y: " );
+
+y.nome=  double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+y.idade=  double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+ If (x.idade > y.idade)
+{Console.WriteLine("O mais velho é:"+x.nome);
+else
+{Console.WriteLine("O mais velho é:"+y.nome);
